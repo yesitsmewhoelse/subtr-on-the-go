@@ -3,6 +3,8 @@
 ## Problem Statement
 
 Make a Node.js service/server which exposes these APIs:
+
+```
   • Subtraction API:
     o Inputs:
       ▪ Number of questions
@@ -27,6 +29,8 @@ Example:
       ▪ Subtrahend: 896
       ▪ Correct Answer: 6672
       ▪ Options: [6987, 6672, 7672, 9947]
+
+```
 
 
 ## API Methods
