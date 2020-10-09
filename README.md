@@ -37,7 +37,7 @@ Example:
 
 ## To call the service
 
-### `GET  /business-rule-service/v1/id?mask=%?context=%?language=%`
+### `GET  https://subtr.herokuapp.com/?borrowing=%&questions=%&minuend_digits=%&subtrahend_digits=%`
 
 This method takes the number of questions, borrowing flag, minuend_digits and subtrahend_digits as query parameter and the appropriate outputs.
 
@@ -60,10 +60,10 @@ Sample Request:
 
 ## Health check
 
-### `GET  api/business-rule-service/v1/health`
+### `GET  https://subtr.herokuapp.com/health`
 
 This method is used to check if the service is reachable or not.
 
 **returns**|**description**
 -----|-----
-200|Ready status of the business rule service.
+*|Service Healthy.
