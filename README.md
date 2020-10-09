@@ -69,7 +69,7 @@ This method is used to check if the service is reachable or not.
 *|Service Healthy.
 
 
-## Run test case
+## Run test cases
 
 ```
         npm run test
