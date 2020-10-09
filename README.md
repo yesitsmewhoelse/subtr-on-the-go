@@ -43,14 +43,14 @@ This method takes the number of questions, borrowing flag, minuend_digits and su
 
 **query parameters**|**type**|**description**
 -----|-----|-----
-borrowing|boolena|Flag to enable or disable borrowing
+borrowing|boolean|Flag to enable or disable borrowing
 questions|Number|Number of questions to be given
 minuend_digits|Number|Number of digits in the minuend
-ubtrahend_digits|Number|Number of digits in the subtrahend
+subtrahend_digits|Number|Number of digits in the subtrahend
 
 **returns**|**description**
 -----|-----
-{}|Objects containg minuend, subtrahend, options and correct answers.
+[]|Array containg minuend, subtrahend, options and correct answers.
 
 Sample Request:
 ```
@@ -67,3 +67,10 @@ This method is used to check if the service is reachable or not.
 **returns**|**description**
 -----|-----
 *|Service Healthy.
+
+
+## Run test case
+
+```
+        npm run test
+```
